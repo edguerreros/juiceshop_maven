@@ -67,7 +67,7 @@ jobs:
           distribution: 'temurin'
           java-version: '11'
       # Build / Test with Maven
-      - name: Build with Gradle
+      - name: Build with Maven
         run: mvn clean compile
       # Publish test results
       - name: Publish Test Results
